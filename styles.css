@@ -1,0 +1,52 @@
+input[name="first"] {
+    background: red;
+}
+
+
+
+.test1,
+.test2,
+.test3 {
+  color: greenyellow;
+}
+
+p.bigText  {
+    background: blue;
+}
+p.bigText + p {
+    background: rgba(0, 255, 98, 0.3)
+}
+
+.test3 > h3 { 
+    background: royalblue;
+}
+
+
+
+  
+ img {
+    width: 100px;
+  }
+  
+  .test1 {
+    background: red;
+  }
+  
+  @media screen and (max-width: 1080px) {
+    img {
+      width: 400px;
+    }
+    .test1 {
+      background: blue;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    img {
+      width: 100%;
+    }
+    .test1 {
+      background: green;
+    }
+  } 
+
